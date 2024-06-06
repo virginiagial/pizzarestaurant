@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pizza Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <script defer src="resources/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="resources/images/logo.png">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <nav class="navbar fixed-top navbar-expand bg-light">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactform">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        <!--Header-->
+        <header>
+            <div class="hero-image">
+                <div class="hero-text">
+                  <img id="logo" src="resources/images/logo.png" alt="Logo of pizza slice">
+                  <h1>Pizza Restaurant</h1>
+                  <h2>Try our new Stuffed Crust Pizza!</h2>
+                  <a href="menu.html" class="btn btn-light" role="button">SEE OUR MENU</a>
+                </div>
+            </div>
+        </header>
+        <!--Opening Hours-->
+        <div class="hours mt-3">
+            <h2 class=" p-5 d-flex justify-content-center">Opening Hours</h2>
+             <div class="row">
+                <div class="title col d-flex justify-content-center">Day</div>
+                <div class="title col d-flex justify-content-center">Hours</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Monday</div>
+                <div class="col d-flex justify-content-center">11:00 - 23:00</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Tuesday</div>
+                <div class="col d-flex justify-content-center">12:00 - 23:00</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Wednesday</div>
+                <div class="col d-flex justify-content-center">11:00 - 23:00</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Thursday</div>
+                <div class="col d-flex justify-content-center">12:00 - 23:00</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Friday</div>
+                <div class="col d-flex justify-content-center">11:00 - 23:30</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Saturday</div>
+                <div class="col d-flex justify-content-center">11:00 - 23:30</div>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">Sunday</div>
+                <div class="col d-flex justify-content-center">12:00 - 23:00</div>
+              </div>
+        </div>
+        <!--Menu-->
+        <div class="menu container-fluid mt-4 p-5" id="menu">
+            <h2 class="p-4">THE MENU</h2>
+        </div>
+        <!--About-->
+        <div class="about container-fluid p-5" id="about">
+           <h2 class="p-5">ABOUT</h2>
+           <p>Welcome to Pizza Restaurant, where every slice tells a story of 
+            tradition, passion, and quality. 
+            Nestled in the heart of Cologne, Pizza Restaurant brings the 
+            authentic flavors of Naples straight to your table. 
+            Our journey began with a simple mission: to create the perfect pizza using time-honored recipes, 
+            the finest ingredients, and a touch of love.</p>
+            <h3 class="p-4">Community & Sustainability</h3>
+            <p>Pizza Restaurant is more than just a pizza place; it's a community hub. We believe in giving back and actively support local charities and events. We're also committed to sustainability, using eco-friendly 
+                packaging and striving to minimize our environmental footprint.</p> 
+            <h3 class="p-4">Join Us</h3>
+            <p>Whether you're looking for a cozy spot for a family dinner, 
+                a casual place to hang out with friends, or 
+                a venue to celebrate a special occasion, Pizza Restaurant is
+                 the perfect choice. Come and experience the joy 
+                of great pizza, made with love and served with a smile.</p>
+            <p>Thank you for choosing Pizza Restaurant. We look forward to serving you soon!</p>
+        </div>
+        <img src="resources/images/cologne.jpg" id="cologne" alt="Black and White Image of Cologne's Dom">
+        <!--Contact-->
+        <!--Forms-->
+        <div class="container-fluid contact p-1 form" id="contactform">
+            <h1 class="d-flex justify-content-center p-4">Contact Us!</h1>
+            <h2 class="d-flex justify-content-center">Contact Form</h2>
+            <form>
+              <div class="mb-3">
+                <label for="firstname" class="form-label">First Name:</label>
+                <input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required>
+              </div>
+              <div class="mb-3">
+                <label for="lastname" class="form-label">Last Name:</label>
+                <input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required>
+              </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email" required>
+            </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" placeholder="000-000-0000" name="phone" required>
+              </div>
+            <div class="mb-3">
+              <label for="additionaltext">Message:</label>
+              <textarea class="form-control" rows="5" id="additionaltext" name="additionaltext"></textarea>
+            </div>
+            <div class="mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="terms" required> I agree on the Terms and Conditions
+              </label>
+            </div>
+                <button type="submit" class="btn btncontact">Submit</button>
+              </form>
+          </div>
+        <!--Map-->
+        <div class="container-fluid contact">
+            <h2 class="d-flex justify-content-center contact">Contact Details</h2>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <address class="col info d-flex justify-content-center align-items-center">
+                        Email: <a href="mailto:#">contact@pizzarestaurant.com</a>
+                        </address>
+                    </div>
+                    <div class="row">
+                        <address class="col info d-flex justify-content-center align-items-center">
+                        Phone Number:<a href="tel:+1231457890">(123).456.7890 </a>
+                        </address>
+                    </div>
+                    <div class="row">
+                        <address class="col info d-flex justify-content-center align-items-center">
+                         Address: Berliner Str. 22,<br> 
+                         Cologne,11111,
+                         Germany
+                        </address>
+                    </div>
+                    <div class="row">
+                        <div class="col  info d-flex justify-content-center align-items-center"  >
+                        <a href="index.html">PizzaRestaurant.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160842.38929449845!2d6.96732235!3d50.957702850000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf259169ab2fe5%3A0x42760fc4a2a77f0!2zzprOv867z4nOvc6vzrE!5e0!3m2!1sel!2sde!4v1717664957465!5m2!1sel!2sde" 
+                    height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div> 
+            </div>   
+    </div>
+        <footer>
+
+        </footer>
+    </body>
+</html>        

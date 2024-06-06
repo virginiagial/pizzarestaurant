@@ -1,0 +1,117 @@
+html, body{
+    margin:0 !important;
+    padding:0 !important;
+  }
+  /*Nav bar*/
+  .nav-link {
+    font-weight: 600;
+  }
+  /*Hero Section*/
+.hero-image{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/hero_image.jpg);
+  position: relative; 
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+    text-align: center;
+    color: white;
+  }
+  .hero-text h1{
+    font-size: 3rem;
+    margin-bottom: 25%;
+ } 
+ .hero-text h2{
+    font-size: 1.5rem;
+ } 
+ #logo{
+    max-width: 200px;
+ }
+ .hero-image a:hover{
+    background-color: black;
+    color: white;
+ }
+ /*Opening Hours*/
+.hours{
+    font-size: 1.3rem;
+}
+ .hours h2{
+    font-size: 2.1rem;
+    font-weight: bolder;
+ }
+ .title{
+    font-size: 1.7rem;
+    font-weight: bold;
+ }
+
+ /*MENU*/ /*About*/
+ .menu{
+    background-color: black;
+    color: #FFFFFF ;
+ }
+ .menu h2, .about h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+ }
+ .about{
+    text-align: center;
+    background-color: #F4EDCD;
+ }
+ .about h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ /*Image*/
+ #cologne{
+    max-width: 100%;
+    height: auto;
+ }
+ /*Contact*/
+ .contact,.info{
+    background-color: #C2C2C2;
+ }
+ .contact h1{
+    margin-top: 3rem;
+  }
+  .contact{
+    color: black ;
+  }
+  #map{
+    padding-bottom: 2rem;
+  }
+  iframe{
+    width: 100%;
+  }
+  .info{
+    height: 85px;
+    background-color: #C2C2C2 ;
+    color: black ;
+    font-weight: bolder;
+    margin-top:0 !important;
+  }
+  .info a{
+    color: black ;
+  }
+  
+  .btncontact{
+    background-color: #FFFFFF ;
+    border-color: #FFFFFF ;
+    color:  black ;
+  }
+
+  .btncontact:hover{
+    background-color: black;
+    color: #C2C2C2;
+  }
+  .contact h2{
+    padding-top: 5px;
+  }
+  .form{
+    border:3px dotted black;
+  }
